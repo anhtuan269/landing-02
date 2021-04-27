@@ -1,0 +1,8 @@
+.menu-item {
+    @apply font-semibold hover:text-menu duration-500 ease-linear; 
+}
+
+a.nuxt-link-exact-active {
+       color:#FFA3A3;
+
+}
