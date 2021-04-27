@@ -4,10 +4,11 @@
     <h2 class="text-60 text-menu font-bold leading-h2" v-show="item.title_show">
       {{ item.title }}
     </h2>
-    <h2 class="text-34 font-bold" v-show="item.nomarl_show">
+    <h2 class="text-34 font-bold" v-show="item.normal_show">
       {{ item.normal_title }}
     </h2>
-    <p class="text-white text-24 heading-l-24 mt-10">{{item.description}}</p>
+    <p class="text-white text-24 heading-l-24 mt-10" v-show="item.title_show">{{item.description}}</p>
+     <p class="  heading-l-24 mt-10" v-show="item.normal_show">{{item.description}}</p>
   </div>
  </div>
 </template>

@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fill:{
+      current:'currentColor'
+    },
+    fill: theme =>({
+      'white': theme('colors.white')
+    }),
     extend: {
+      
       gradientColorStops: theme => ({
         ...theme('colors'),
         'menu' : '#FFA3A3'
@@ -67,6 +74,7 @@ module.exports = {
       margin: {
         '12': '0.75rem',
         '14': '0.875rem',
+        '15':'3.75rem',
         '16': '1rem',
         '18': '1.125rem',
         '22': '1.375rem',
@@ -74,8 +82,10 @@ module.exports = {
         '28': '1.75rem',
         '30':'1.875rem',
         '42': '2.265rem',
+        '60':'3.75rem',
         '70': '4.375rem',
-        '60':'3.75rem'
+        '90':'5.625rem',
+        '100':'6.125rem'
       },
       inset: {
         '10':'0.625rem',
