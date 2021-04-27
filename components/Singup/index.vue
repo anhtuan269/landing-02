@@ -16,7 +16,7 @@
           </div>
       </form>
       <div class="mt-10">
-          <button class="text-white px-28 py-14 bg-blue-color font-bold hover:text-blue-color hover:bg-white duration-500 ease-in-out ">Sign Up</button>
+          <button class="text-white px-28 py-14 bg-blue-color font-bold  hover:bg-button duration-500 ease-in-out ">Sign Up</button>
       </div>
       <div class="mt-30">
           <p class="text-12 heading-l-18">
