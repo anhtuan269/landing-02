@@ -26,7 +26,7 @@
       </div>
 
       <div class="absolute top-20 right-20 bottom-20">
-          <img src="@/static/image/line.png" alt="">
+          <img class="h-full" src="@/static/image/line.png" alt="">
       </div>
       <div class="absolute bottom-60 right-10">
           <img src="@/static/image/computer.png" alt="">

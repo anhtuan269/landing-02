@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      gradientColorStops: theme => ({
+        ...theme('colors'),
+        'menu' : '#FFA3A3'
+      }),
+      width:{
+        '1/1': '49%'
+      },
       textColor: {
         'menu': '#FFA3A3',
         'blue-color': '#381DDB'
@@ -12,7 +19,12 @@ module.exports = {
         'blue-color': '#381DDB'
       },
       backgroundColor: {
-        'blue-color': '#381DDB'
+        'blue-color': '#381DDB',
+        'menu': '#FFA3A3',
+
+      },
+      divideColor:{
+        'menu': '#FFA3A3',
       },
       backgroundImage: {
         'hero-bg': 'url(@/static/image/hero.jpeg)'
@@ -48,7 +60,9 @@ module.exports = {
         '50': '3.125rem',
         '60':'3.75rem',
         '70': '4.375rem',
-        '207':'12.9375rem'
+        '207':'12.9375rem',
+        '130':'8.135rem',
+        '200':'12.5rem'
       },
       margin: {
         '12': '0.75rem',
