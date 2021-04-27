@@ -28,6 +28,7 @@ module.exports = {
       backgroundColor: {
         'blue-color': '#381DDB',
         'menu': '#FFA3A3',
+        'button':'#FC5252'
 
       },
       divideColor:{
@@ -69,6 +70,7 @@ module.exports = {
         '70': '4.375rem',
         '207':'12.9375rem',
         '130':'8.135rem',
+        '100':'6.125rem',
         '200':'12.5rem'
       },
       margin: {
