@@ -48,6 +48,7 @@ import Login from "@/components/Login";
 import Singup from '@/components/Singup';
 import Heading from "@/components/Header/heading.vue";
 export default {
+  name:'Hero',
   components: {
     Menu,
     Login,
