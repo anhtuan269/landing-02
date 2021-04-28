@@ -12,7 +12,9 @@ module.exports = {
       
       gradientColorStops: theme => ({
         ...theme('colors'),
-        'menu' : '#FFA3A3'
+        'menu' : '#FFA3A3',
+        'white-start': 'rgba(255, 255, 255, 0)',
+        'white-end': 'rgba(255, 255, 255, 0.4)',
       }),
       width:{
         '1/1': '49%'
@@ -64,6 +66,7 @@ module.exports = {
         '22': '1.375rem',
         '24': '1.5rem',
         '28': '1.75rem',
+        '30':'1.875rem',
         '42': '2.265rem',
         '50': '3.125rem',
         '60':'3.75rem',
@@ -100,7 +103,9 @@ module.exports = {
         '24': '1.5rem',
         '28': '1.75rem',
         '42': '2.265rem',
-        '60':'3.75rem'
+        '60':'3.75rem',
+        'a':'2%'
+
       },
       zIndex: {
         'a':'-1'

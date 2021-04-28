@@ -1,37 +1,139 @@
 <template>
-  <div class="max-w-d mx-auto mt-32">
-      <h2 class="text-34 font-bold leading-l-h3 text-center">Working with a diverse global customer base</h2>
-      <div class="pt-10">
-          <div class="flex">
-              <div class="mx-4">
-                  <img src="@/static/image/Group 687.png" alt="">
-              </div>
-              <div class="mx-4">
-                  <img src="@/static/image/Group 688.png" alt="">
-              </div>
-              <div class="mx-4">
-                  <img src="@/static/image/Group 689.png" alt="">
-              </div>
-              <div class="mx-4">
-                  <img src="@/static/image/Group 690.png" alt="">
-              </div>
-              <div class="mx-4">
-                  <img src="@/static/image/Group 691.png" alt="">
-              </div>
-              <div class="mx-4">
-                  <img src="@/static/image/Group 692.png" alt="">
-              </div>
+  <div class="max-w-desktop mx-auto mt-32">
+    <h2 class="text-34 font-bold leading-l-h3 text-center">
+      Working with a diverse global customer base
+    </h2>
+    <div class="pt-10 relative text-center left-a">
+      <VueSlickCarousel v-bind="setting" ref="carousel" @init="onInitCarousel">
+        <div
+          v-for="(customer, index) in customers"
+          :key="index"
+          :index="index"
+        >
+          <img  class=" bg-gray-200 py-5 px-30" :src="customer.img" alt="" />
+        </div>
+        <template #prevArrow="arrowOption">
+          <div class="custom-arrow">
+            {{ arrowOption.currentSlide }}/{{ arrowOption.slideCount }}
           </div>
+        </template>
+        /*...*/
+        <template #customPaging="page">
+          <div class="custom-dot">
+            {{ page }}
+          </div>
+        </template>
+      </VueSlickCarousel>
+      <div class="absolute left-0 top-0 w-4/12 h-full bg-gradient-to-r from-white"></div>
+      <div class="absolute right-0 top-0 w-4/12 h-full bg-gradient-to-l from-white"></div>
+      <div class="flex items-center justify-center opacity-30 pt-5 relative -left-11">
+        <button class="focus:outline-none" @click="showPrev">
+          <svg
+            width="30"
+            height="18"
+            viewBox="0 0 30 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.1395 0.941454C8.378 1.19651 8.378 1.61045 8.1395 1.8654L2.0842 8.3465H29.3895C29.7266 8.3465 30 8.63913 30 8.99993C30 9.36073 29.7266 9.65336 29.3895 9.65336H2.0843L8.1397 16.1346C8.378 16.3896 8.3781 16.8035 8.1396 17.0586C7.9012 17.3138 7.5146 17.3138 7.2762 17.0585L0.178801 9.4619C0.0596008 9.33438 0 9.1671 0 8.99993C0 8.83277 0.0595989 8.66549 0.1789 8.53796L7.2763 0.941454C7.5146 0.686182 7.9012 0.686182 8.1395 0.941454Z"
+              fill="#222222"
+            />
+          </svg>
+        </button>
+        <p class="mx-5 font-normal heading-l-24">
+          {{ visibleSlide + 1 }} / {{ total }}
+        </p>
+        <button class="focus:outline-none" @click="showNext">
+          <img src="@/static/image/right.png" alt="" />
+        </button>
       </div>
+    </div>
   </div>
 </template>
 
-<script>
+<script src="">
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
-
-}
+  name: "Customer",
+  components: {
+    VueSlickCarousel,
+  },
+  data() {
+    return {
+      setting: {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        centerPadding:"30px",
+      },
+      customers: [
+        {
+          id: 1,
+          img: "/image/Group 687.png",
+        },
+        {
+          id: 2,
+          img: "/image/Group 688.png",
+        },
+        {
+          id: 1,
+          img: "/image/Group 689.png",
+        },
+        {
+          id: 1,
+          img: "/image/Group 690.png",
+        },
+        {
+          id: 1,
+          img: "/image/Group 691.png",
+        },
+        {
+          id: 1,
+          img: "/image/Group 692.png",
+        },
+        {
+          id: 1,
+          img: "/image/Group 690.png",
+        },
+      ],
+      visibleSlide: 0,
+    };
+  },
+  methods: {
+    showNext() {
+      if (this.visibleSlide >= this.total - 1) {
+        return (this.visibleSlide = 0);
+      } else {
+        this.visibleSlide++;
+      }
+      this.$refs.carousel.next();
+    },
+    showPrev() {
+      this.$refs.carousel.prev();
+      if (this.visibleSlide <= 0) {
+        return (this.visibleSlide = this.total - 1);
+      } else {
+        this.visibleSlide--;
+      }
+    },
+     onInitCarousel() {
+        console.log('our carousel is ready')
+      },
+  },
+  computed: {
+    total() {
+      return this.customers.length;
+    },
+  },
+};
 </script>
 
 <style>
-
 </style>
