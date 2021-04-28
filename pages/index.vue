@@ -8,6 +8,7 @@
     <Content_2 />
     <CTA />
     <Customer />
+    <Footer />
 
   </div>
 </template>
@@ -19,6 +20,7 @@ import Content_2 from '@/components/Sections/Text_content_2.vue';
 import CTA from '@/components/Sections/CTA.vue'
 import Divider from '@/components/Sections/Divider.vue'
 import Feature from '@/components/Sections/Feature.vue'
+import Footer from '@/components/Sections/Footer.vue'
 import Customer from '@/components/Customer/Customer.vue'
 export default {
   components: {
@@ -28,7 +30,8 @@ export default {
     Divider,
     Feature,
     CTA,
-    Customer
+    Customer,
+    Footer
   },
 };
 </script>

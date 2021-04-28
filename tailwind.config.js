@@ -2,6 +2,16 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'tablet': '768px',
+      // => @media (min-width: 640px) { ... }
+
+      'moblie': '375px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1920px',
+      // => @media (min-width: 1280px) { ... }
+    },
     fill:{
       current:'currentColor'
     },
@@ -90,7 +100,8 @@ module.exports = {
         '60':'3.75rem',
         '70': '4.375rem',
         '90':'5.625rem',
-        '100':'6.125rem'
+        '100':'6.125rem',
+        '134':'8.375rem'
       },
       inset: {
         '10':'0.625rem',
