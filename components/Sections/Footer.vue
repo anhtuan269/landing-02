@@ -1,16 +1,20 @@
 <template>
-  <div class="max-w-desktop mx-auto bg-gray-200 p-10 flex items-center justify-between mt-134">    
-      <div class="text-left max-w-md">
-          <img src="@/static/image/udix.2.png" alt="">
+  <div class="max-w-desktop mx-auto bg-gray-200 p-10  tablet:max-w-tablet ">    
+       <div
+          class="header flex justify-between items-center max-w-d mx-auto pt-28 tablet:max-w-screen-tablet tablet:pt-24 tablet:px-39"
+        >
+          <div class="flex items-center ">
+            <nuxt-link to="/">
+              <img class="mr-10 tablet:mr-6" src="@/static/image/white-logo.png" alt="" />
+            </nuxt-link>
+            <Header />
+          </div>
+          <Login />
+        </div>
+      <div class="text-left flex justify-between">
           <p class="pt-10">
               udix is a market-leading provider of digital marketing services, using proprietary tools and methodologies to generate high-value engagement for our customers.
           </p>
-      </div>
-      <div class="text-left">
-          <div class="flex items-center justify-center">
-              <Header class="mr-20"/>
-              <Sign />
-          </div>
          <div class="pt-10 max-w-lg ml-auto">
               <Social />
          </div>

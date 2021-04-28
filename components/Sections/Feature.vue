@@ -1,11 +1,13 @@
 <template>
-  <div class="max-w-d mx-auto text-center pb-70">
-      <Heading
+  <div class="max-w-d mx-auto text-center pb-70 tablet:py-50 tablet:bg-gray-100 ">
+      <div class="tablet:max-w-690 tablet:mx-auto">
+          <Heading
       :head="head"
        />
-       <div class="mt-90">
+       <div class="mt-90 tablet:mt-30">
            <Card />
        </div>
+      </div>
   </div>
 </template>
 

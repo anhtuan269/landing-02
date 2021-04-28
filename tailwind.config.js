@@ -27,7 +27,9 @@ module.exports = {
         'white-end': 'rgba(255, 255, 255, 0.4)',
       }),
       width:{
-        '1/1': '49%'
+        '1/1': '49%',
+        '18': '70px',
+        
       },
       textColor: {
         'menu': '#FFA3A3',
@@ -51,7 +53,9 @@ module.exports = {
       },
       maxWidth: {
         'mobile': '375px',
-        'tablet': '768px',
+        '570': '570px',
+        '690':'690px',
+        'tablet':'768px',
         'desktop': '1920px',
         'd':'1170px'
       },
@@ -85,7 +89,8 @@ module.exports = {
         '207':'12.9375rem',
         '130':'8.135rem',
         '100':'6.125rem',
-        '200':'12.5rem'
+        '200':'12.5rem',
+        '134':'8.375rem'
       },
       margin: {
         '12': '0.75rem',

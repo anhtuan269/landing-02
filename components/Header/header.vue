@@ -5,7 +5,7 @@
       <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
     </li>
   </ul>
-  <div class="border-2 border-white py-2 px-4 text-white text-14 font-semibold uppercase md:hidden">menu</div>
+  <div class="border-2 border-white py-2 px-4 text-white text-14 font-semibold uppercase tablet:hidden">menu</div>
   </div>
 </template>
 

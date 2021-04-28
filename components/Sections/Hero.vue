@@ -7,7 +7,7 @@
     <div
       class="bg-blue-color absolute w-3/5 top-0 z-a h-full bg-opacity-90 tablet:w-full tablet:h-3/5 "
     ></div>
-    <div class="bg-white absolute right-0 w-2/5 z-a h-full bg-opacity-90 tablet:bottom-0 tablet:h-2/5 tablet:w-full tablet:bg-gray-200" ></div>
+    <div class="bg-white absolute right-0 w-2/5 z-a h-full bg-opacity-90 tablet:bottom-0 tablet:h-2/5 tablet:w-full tablet:bg-gray-100" ></div>
     <div class="z-20">
       <div class="content">
         <div

@@ -1,7 +1,10 @@
 <template>
   <div class="block">   
-      <form class="my-10 relative" action="">
-          <input type="text" placeholder="Name" class="px-10 py-3 bg-gray-200 bg-opacity-10 focus:outline-none">
+      <form class="my-10 relative tablet:my-30 tablet:flex" action="">
+          <input type="text" placeholder="Name" class="px-10 py-3
+           bg-gray-200 bg-opacity-10 
+          focus:outline-none
+          ">
           <button class="ml-4 py-3 px-5 bg-button font-bold">Subscribe</button>
       </form>
       <div class="opacity-30">

@@ -1,6 +1,6 @@
 <template>
-  <div class="text-right overflow-x-hidden ">
-    <img class="mb-10 ml-auto" src="@/static/image/udix.2.png" alt="" />
+  <div class="text-right overflow-x-hidden tablet:text-center tablet:max-w-570 tablet:mx-auto">
+    <img class="mb-10 ml-auto tablet:mx-auto" src="@/static/image/udix.2.png" alt="" />
     <h2 class="text-34 leading-h3 font-semibold">
       is a leading provider of digital marketing services
     </h2>
@@ -19,7 +19,7 @@
         <p class="pt-50 leading-l-24">{{ slide.content }}</p>
       </Slide>
     </Carousel>
-     <div class="flex items-center justify-end pt-48 opacity-30 ">
+     <div class="flex items-center justify-end pt-48 opacity-30 tablet:justify-center ">
       <button class="focus:outline-none" @click="pre">
         <svg
           width="30"

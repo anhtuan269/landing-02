@@ -1,6 +1,7 @@
 <template>
-  <div class="p-5 text-center bg-black text-white relative">
-    <div class="px-200 py-100 text-center text-white">
+  <div class="tablet:bg-gray-100">
+    <div class="p-5 text-center bg-black text-white relative tablet:max-w-690 tablet:mx-auto">
+    <div class="px-200 py-100 text-center text-white tablet:max-w-570 tablet:p-60 tablet:mx-auto">
       <Heading 
       :head="head"
       />
@@ -8,6 +9,7 @@
     </div>
     <img class="absolute top-5 left-5" src="@/static/image/1.png" alt="">
     <img class="absolute right-5 bottom-5" src="@/static/image/2.png" alt="">
+  </div>
   </div>
 </template>
 

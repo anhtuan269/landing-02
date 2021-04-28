@@ -1,9 +1,9 @@
 <template>
-  <div class=" max-w-d mx-auto flex justify-center items-center -mt-14 ">
-      <div class="image w-7/12">
+  <div class=" max-w-d mx-auto flex justify-center items-center -mt-14  tablet:mt-0 tablet:py-100 tablet:bg-gray-100 tablet:flex-col-reverse">
+      <div class="image w-7/12 ">
         <img src="@/static/image/content.png" alt="">
       </div>
-      <div class="content w-5/12 relative  ml-3">
+      <div class="content w-5/12 relative  ml-3 tablet:w-9/12 tablet:mx-auto ">
           <Heading 
           :head="head1"
           />
