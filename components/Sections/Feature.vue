@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-d mx-auto text-center pb-70 tablet:py-50 tablet:bg-gray-100 ">
-      <div class="tablet:max-w-690 tablet:mx-auto">
+  <div class="desktop:max-w-d mx-auto text-center desktop:py-60 desktop:bg-white tablet:py-50 tablet:bg-gray-100 ">
+      <div class=" desktop:max-w-d tablet:max-w-690 tablet:mx-auto">
           <Heading
       :head="head"
        />
