@@ -1,9 +1,9 @@
 <template>
-  <div class=" desktop:max-w-d mx-auto flex desktop:flex-row desktop:justify-center desktop:items-center desktop:bg-white desktop:-mt-14  tablet:mt-0 tablet:py-100 tablet:bg-gray-100 tablet:flex-col-reverse">
+  <div class=" desktop:max-w-d mx-auto flex desktop:flex-row desktop:justify-center items-center desktop:bg-white desktop:-mt-14  tablet:mt-0 tablet:py-100 tablet:bg-gray-100 tablet:flex-col-reverse">
       <div class="image desktop:w-6/12 ">
         <img src="@/static/image/content.png" alt="">
       </div>
-      <div class="content desktop:w-5/12 relative  ml-3 tablet:w-9/12 mx-auto ">
+      <div class="content desktop:w-5/12 relative  ml-3 tablet:w-9/12 tablet:mx-auto ">
           <Heading 
           :head="head1"
           />

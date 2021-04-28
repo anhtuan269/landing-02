@@ -1,6 +1,10 @@
 <template>
-  <div class="desktop:max-w-desktop mx-auto py-32 desktop:bg-white tablet:max-w-tablet tablet:bg-gray-100 tablet:bg-opacity-50">
-    <h2 class="text-34 font-bold leading-l-h3 text-center desktop:pb-0 desktop:max-w-d tablet:max-w-690 tablet:mx-auto">
+  <div
+    class="desktop:max-w-desktop mx-auto py-32 desktop:bg-white tablet:max-w-tablet tablet:bg-gray-100 tablet:bg-opacity-50"
+  >
+    <h2
+      class="text-34 font-bold leading-l-h3 text-center desktop:pb-0 desktop:max-w-d tablet:max-w-690 tablet:mx-auto"
+    >
       Working with a diverse global customer base
     </h2>
     <div class="desktop:pt-32 relative text-center left-a tablet:pt-30">
@@ -73,7 +77,6 @@ export default {
         speed: 500,
         slidesToShow: 6,
         slidesToScroll: 1,
-        centerPadding: "30px",
         responsive: [
           {
             breakpoint: 1200,
@@ -82,17 +85,17 @@ export default {
               slidesToScroll: 1,
               infinite: true,
               dots: false,
-              centerPadding: "30px"
+              centerMode: true,
+              centerPadding: "30px",
             },
           },
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1,
-              initialSlide: 2,
-              centerPadding: "30px"
-
+              centerMode: true,
+              centerPadding: "20px",
             },
           },
           {
@@ -100,8 +103,8 @@ export default {
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-              centerPadding: "30px"
-
+              centerMode: true,
+              centerPadding: "30px",
             },
           },
         ],
