@@ -29,6 +29,7 @@ module.exports = {
       width:{
         '1/1': '49%',
         '18': '70px',
+        '19':'1.875rem'
         
       },
       textColor: {

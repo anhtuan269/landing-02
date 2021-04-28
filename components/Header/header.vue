@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center">
     <ul class=" flex items-center text-black" >
-    <li v-for="(item, index) in menu" :key="index" class="menu-item  ml-10 py-2">
+    <li v-for="(item, index) in menu" :key="index" class="menu-item  ml-10 py-2 tablet:ml-5">
       <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
     </li>
   </ul>
