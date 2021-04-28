@@ -1,7 +1,7 @@
 <template>
  <div class="root">
       <div class="heading" v-for="(item, index) in head" :key="index">
-    <h2 class="text-60 text-menu font-bold leading-h2 tablet:w-11/12 tablet:mx-auto" v-show="item.title_show">
+    <h2 class="text-60 text-menu font-bold desktop:w-full  leading-h2 tablet:w-11/12 tablet:mx-auto" v-show="item.title_show">
       {{ item.title }}
     </h2>
     <h2 class="text-34 font-bold" v-show="item.normal_show">
@@ -10,9 +10,9 @@
      <h2 class="text-34 font-bold" v-show="item.special">
       {{ item.normal_title }}
     </h2>
-    <p class="text-white text-24 heading-l-24 mt-10 tablet:mt-30 tablet:w-8/12 tablet:mx-auto" v-show="item.title_show">{{item.description}}</p>
+    <p class="text-white text-24 desktop:w-full heading-l-24 desktop:mt-10 tablet:mt-30 tablet:w-8/12 tablet:mx-auto" v-show="item.title_show">{{item.description}}</p>
      <p class="  heading-l-24 mt-10 tablet:mt-30" v-show="item.normal_show">{{item.description}}</p>
-     <p class="  heading-l-24 mt-10  opacity-70 mx-auto w-5/12 tablet:w-full" v-show="item.special">{{item.description}}</p>
+     <p class="  heading-l-24 mt-10  opacity-70 mx-auto desktop:w-5/12 tablet:w-full" v-show="item.special">{{item.description}}</p>
   </div>
  </div>
 </template>
