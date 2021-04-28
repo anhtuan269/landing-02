@@ -12,7 +12,7 @@
     </h2>
     <p class="text-white text-24 desktop:w-full heading-l-24 desktop:mt-10 tablet:mt-30 tablet:w-8/12 tablet:mx-auto" v-show="item.title_show">{{item.description}}</p>
      <p class="  heading-l-24 mt-10 tablet:mt-30" v-show="item.normal_show">{{item.description}}</p>
-     <p class="  heading-l-24 mt-10  opacity-70 mx-auto desktop:w-5/12 tablet:w-full" v-show="item.special">{{item.description}}</p>
+     <p class="  heading-l-24 mt-10  opacity-70 mx-auto w-full" v-show="item.special">{{item.description}}</p>
   </div>
  </div>
 </template>

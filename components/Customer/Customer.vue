@@ -1,9 +1,9 @@
 <template>
-  <div class="max-w-desktop mx-auto py-32 tablet:max-w-tablet tablet:bg-gray-100 tablet:bg-opacity-50">
-    <h2 class="text-34 font-bold leading-l-h3 text-center tablet:max-w-690 tablet:mx-auto">
+  <div class="desktop:max-w-desktop mx-auto py-32 desktop:bg-white tablet:max-w-tablet tablet:bg-gray-100 tablet:bg-opacity-50">
+    <h2 class="text-34 font-bold leading-l-h3 text-center desktop:pb-0 desktop:max-w-d tablet:max-w-690 tablet:mx-auto">
       Working with a diverse global customer base
     </h2>
-    <div class="pt-10 relative text-center left-a tablet:pt-30">
+    <div class="desktop:pt-32 relative text-center left-a tablet:pt-30">
       <VueSlickCarousel v-bind="setting" ref="carousel" @init="onInitCarousel">
         <div v-for="(customer, index) in customers" :key="index" :index="index">
           <img class="bg-gray-200 py-5 px-30" :src="customer.img" alt="" />
@@ -27,7 +27,7 @@
         class="absolute right-0 top-0 w-4/12 h-full bg-gradient-to-l from-white tablet:w-3/12"
       ></div>
       <div
-        class="flex items-center justify-center opacity-30 pt-5 relative -left-11"
+        class="flex items-center justify-center opacity-30 pt-10 relative -left-11"
       >
         <button class="focus:outline-none" @click="showPrev">
           <svg

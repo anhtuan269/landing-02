@@ -1,6 +1,6 @@
 <template>
   <div class="block">   
-      <form class="my-10 relative tablet:my-30 tablet:flex" action="">
+      <form class="my-10 relative tablet:my-30 desktop:justify-center tablet:flex" action="">
           <input type="text" placeholder="Name" class="px-10 py-3
            bg-gray-200 bg-opacity-10 
           focus:outline-none

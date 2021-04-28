@@ -1,7 +1,7 @@
 <template>
-  <div class="tablet:bg-gray-100">
-    <div class="p-5 text-center bg-black text-white relative tablet:max-w-690 tablet:mx-auto">
-    <div class="px-200 py-100 text-center text-white tablet:max-w-570 tablet:p-60 tablet:mx-auto">
+  <div class="tablet:bg-gray-100 desktop:bg-white">
+    <div class="p-5 text-center bg-black text-white relative desktop:max-w-desktop tablet:max-w-690 tablet:mx-auto">
+    <div class="desktop:px-200 desktop:py-100  desktop:max-w-d text-center text-white tablet:max-w-570 tablet:p-60 tablet:mx-auto">
       <Heading 
       :head="head"
       />

@@ -1,5 +1,5 @@
 <template>
-  <div class="desktop:relative desktop:pb-207 tablet:pb-0 ">
+  <div class="relative desktop:pb-207 tablet:pb-0 ">
     <div
       class=" mx-auto bg-cover bg-center desktop:bg-hero-bg desktop:bg-opacity-10  desktop:z-a desktop:w-full desktop:h-full desktop:absolute desktop:top-0"
     ></div>

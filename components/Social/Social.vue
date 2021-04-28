@@ -2,7 +2,7 @@
   <div class="flex items-center justify-between">
     <div class="relative group cursor-pointer">
       <svg
-        class="group-hover:opacity-0 duration-500 tablet:w-3 ease-linear"
+        class="group-hover:opacity-0 duration-500 desktop:w-full tablet:w-3 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 10 19"
@@ -15,7 +15,7 @@
         />
       </svg>
       <svg
-        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 tablet:w-3 ease-linear"
+        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 desktop:w-full tablet:w-3 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 10 19"
@@ -30,7 +30,7 @@
     </div>
     <div class="relative group cursor-pointer">
       <svg
-        class="group-hover:opacity-0 duration-500 tablet:w-5 ease-linear"
+        class="group-hover:opacity-0 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 20"
@@ -45,7 +45,7 @@
         />
       </svg>
       <svg
-        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 tablet:w-5 ease-linear"
+        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 20"
@@ -62,7 +62,7 @@
     </div>
     <div class="relative group cursor-pointer">
       <svg
-        class="group-hover:opacity-0 duration-500 tablet:w-5 ease-linear"
+        class="group-hover:opacity-0 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 19"
@@ -75,7 +75,7 @@
         />
       </svg>
       <svg
-        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 tablet:w-5 ease-linear"
+        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 19"
@@ -90,7 +90,7 @@
     </div>
     <div class="relative group cursor-pointer">
       <svg
-        class="group-hover:opacity-0 duration-500 tablet:w-5 ease-linear"
+        class="group-hover:opacity-0 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 16"
@@ -105,7 +105,7 @@
         />
       </svg>
       <svg
-        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 tablet:w-5 ease-linear"
+        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 16"
@@ -122,7 +122,7 @@
     </div>
     <div class="relative group cursor-pointer">
       <svg
-        class="group-hover:opacity-0 duration-500 tablet:w-5 ease-linear"
+        class="group-hover:opacity-0 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 18"
@@ -135,7 +135,7 @@
         />
       </svg>
       <svg
-        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 tablet:w-5 ease-linear"
+        class="absolute top-0 opacity-0 group-hover:opacity-100 duration-500 desktop:w-full tablet:w-5 ease-linear"
         width="30"
         height="30"
         viewBox="0 0 18 18"
