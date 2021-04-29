@@ -11,7 +11,7 @@
     <div class="z-20">
       <div class="content">
         <div
-          class="header max-w-18 tablet:flex  tablet:justify-center tablet:items-center desktop:max-w-d mx-auto pt-28 tablet:max-w-screen-tablet tablet:pt-24 tablet:px-39"
+          class="header max-w-18 tablet:flex   tablet:justify-between tablet:items-center desktop:max-w-d mx-auto pt-28 tablet:max-w-screen-tablet tablet:pt-24 tablet:px-39"
         >
           <div class=" flex justify-between tablet:flex tablet:items-center  ">
             <nuxt-link to="/">
