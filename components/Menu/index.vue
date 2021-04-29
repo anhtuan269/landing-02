@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center items-center">
-    <ul class=" flex items-center text-white" >
+  <div class="flex justify-end tablet:justify-center items-center">
+    <ul class=" tablet:flex items-center text-white hidden " >
     <li v-for="(item, index) in menu" :key="index" class="menu-item  desktop:ml-10 tablet:ml-6 py-2">
       <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
     </li>

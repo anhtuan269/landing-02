@@ -1,6 +1,6 @@
 <template>
-  <div class="desktop:max-w-d mx-auto text-center desktop:py-60 desktop:bg-white tablet:py-50 tablet:bg-gray-100 ">
-      <div class=" desktop:max-w-d max-w-690 mx-auto">
+  <div class="desktop:max-w-d mx-auto text-center desktop:py-60 desktop:bg-white py-50 bg-gray-100 ">
+      <div class=" desktop:max-w-d tablet:max-w-690 max-w-18 mx-auto">
           <Heading
       :head="head"
        />
@@ -25,7 +25,8 @@ export default {
                     description:'Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts.',
                     normal_title:'Solutions that will change your business forever',
                     title_show:false,
-                    normal_show: true
+                    normal_show: false,
+                    special:true
                 },
             ]
         }

@@ -6,7 +6,7 @@
       <div class="image desktop:w-6/12 ">
         <img src="@/static/image/content.png" alt="">
       </div>
-      <div class="content desktop:w-5/12 relative  ml-3 tablet:w-9/12 tablet:mx-auto ">
+      <div class="content desktop:w-5/12 relative  ml-3  mx-auto  ">
           <Heading 
           :head="head1"
           />
@@ -15,7 +15,7 @@
           class="mt-42 mb-42"
 
           />
-          <nuxt-link to="/" class=" flex items-center justify-start font-bold">
+          <nuxt-link to="/" class=" flex items-center justify-start font-bold w-10/12 mx-auto">
               Check our solutions
               <img class="ml-2" src="@/static/image/arrow-right-1.png" alt="">
           </nuxt-link>

@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-d mx-auto flex items-center justify-between">
+  <div class=" tablet:max-w-d mx-auto max-w-18 tablet:flex tablet:items-center tablet:justify-between">
     <div
-      class="p-5 bg-white hover:bg-menu cursor-pointer duration-500 ease-in-out group mr-2  desktop:bg-white tablet:bg-gray-100 "
+      class="p-5  hover:bg-menu cursor-pointer duration-500 ease-in-out group mr-2  desktop:bg-white bg-gray-100 "
     >
       <div class="text-left">
         <div class="mr-auto relative">
@@ -170,7 +170,7 @@
       </div>
     </div>
     <div
-      class="p-5 bg-white hover:bg-menu cursor-pointer duration-500 ease-in-out group mr2  desktop:bg-white tablet:bg-gray-100"
+      class="p-5  hover:bg-menu cursor-pointer duration-500 ease-in-out group mr2  desktop:bg-white bg-gray-100"
     >
       <div class="text-left">
         <div class="mr-auto relative">
@@ -257,7 +257,7 @@
       </div>
     </div>
     <div
-      class="p-5 bg-white hover:bg-menu cursor-pointer duration-500 ease-in-out group  desktop:bg-white tablet:bg-gray-100"
+      class="p-5  hover:bg-menu cursor-pointer duration-500 ease-in-out group  desktop:bg-white bg-gray-100"
     >
       <div class="text-left">
         <div class="mr-auto relative">
