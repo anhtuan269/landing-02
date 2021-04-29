@@ -11,7 +11,7 @@
       {{ item.normal_title }}
     </h2>
     <p class="text-white mt-5 text-18 tablet:text-24 desktop:w-full heading-l-24 desktop:mt-10 tablet:mt-30 tablet:w-8/12 tablet:mx-auto hidden tablet:block" v-show="item.title_show">{{item.description}}</p>
-     <p class="  heading-l-24 mt-5  text-14 tablet:text-16 tablet:mt-30 ml-auto  tablet:mr-auto w-10/12  " v-show="item.normal_show">{{item.description}}</p>
+     <p class="  heading-l-24 mt-5  text-14 tablet:text-16 tablet:mt-30 mx-auto   w-10/12  " v-show="item.normal_show">{{item.description}}</p>
      <p class="  heading-l-24 mt-5  opacity-70 mx-auto w-full text-14 tablet:text-16" v-show="item.special">{{item.description}}</p>
   </div>
  </div>
