@@ -10,7 +10,7 @@
     <div class="desktop:pt-32 relative text-center left-a tablet:pt-30">
       <VueSlickCarousel v-bind="setting" ref="carousel" @init="onInitCarousel">
         <div v-for="(customer, index) in customers" :key="index" :index="index">
-          <img class="bg-gray-200 py-5 px-30" :src="customer.img" alt="" />
+          <img class="bg-gray-200 py-5  desktop:px-30 tablet:20" :src="customer.img" alt="" />
         </div>
         <template #prevArrow="arrowOption">
           <div class="custom-arrow">
@@ -92,7 +92,7 @@ export default {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 4,
               slidesToScroll: 1,
               centerMode: true,
               centerPadding: "20px",
@@ -104,6 +104,7 @@ export default {
               slidesToShow: 2,
               slidesToScroll: 1,
               centerMode: true,
+              centerMode:true,
               centerPadding: "30px",
             },
           },

@@ -1,11 +1,10 @@
 <template>
-  <div class="flex justify-center items-center">
-    <ul class=" flex items-center text-black" >
-    <li v-for="(item, index) in menu" :key="index" class="menu-item  desktop:ml-10 py-2 tablet:ml-5">
+  <div class="flex justify-center items-center mt-4 tablet:mt-0" >
+    <ul class=" flex items-center text-black justify-center" >
+    <li v-for="(item, index) in menu" :key="index" class="menu-item text-14 :tablet:text-16 mr-5 last:mr-0 desktop:ml-10 py-2 tablet:ml-5  tablet:mr-0">
       <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
     </li>
   </ul>
-  <div class="border-2 border-white py-2 px-4 text-white text-14 font-semibold uppercase tablet:hidden">menu</div>
   </div>
 </template>
 

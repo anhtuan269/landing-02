@@ -149,6 +149,7 @@ module.exports = {
   variants: {
     extend: {
       textColor: ['active'],
+      margin:['last']
     }
   },
   plugins: [],
