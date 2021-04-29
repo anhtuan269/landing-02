@@ -3,7 +3,7 @@
     class="desktop:max-w-desktop mx-auto py-32 desktop:bg-white tablet:max-w-tablet tablet:bg-gray-100 tablet:bg-opacity-50"
   >
     <h2
-      class="text-34 font-bold leading-l-h3 text-center desktop:pb-0 desktop:max-w-d tablet:max-w-690 tablet:mx-auto"
+      class="text-28 max-w-18  tablet:text-34 font-bold leading-l-h3 text-center desktop:pb-0 desktop:max-w-d tablet:max-w-690 mx-auto"
     >
       Working with a diverse global customer base
     </h2>

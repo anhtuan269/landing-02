@@ -1,5 +1,8 @@
 <template>
-  <div class=" desktop:max-w-d mx-auto flex desktop:flex-row desktop:justify-center items-center desktop:bg-white desktop:-mt-14  tablet:mt-0 tablet:py-100 tablet:bg-gray-100 tablet:flex-col-reverse">
+  <div class=" desktop:max-w-d mx-auto
+   flex desktop:flex-row desktop:justify-center
+    items-center desktop:bg-white desktop:-mt-14 
+     mt-0 py-100 bg-gray-100 flex-col-reverse">
       <div class="image desktop:w-6/12 ">
         <img src="@/static/image/content.png" alt="">
       </div>
