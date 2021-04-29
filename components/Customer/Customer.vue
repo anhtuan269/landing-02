@@ -7,10 +7,10 @@
     >
       Working with a diverse global customer base
     </h2>
-    <div class="desktop:pt-32 relative text-center left-a tablet:pt-30">
+    <div class="desktop:pt-32 relative text-center left-a pt-30">
       <VueSlickCarousel v-bind="setting" ref="carousel" @init="onInitCarousel">
         <div v-for="(customer, index) in customers" :key="index" :index="index">
-          <img class="bg-gray-200 py-5  desktop:px-30 tablet:20" :src="customer.img" alt="" />
+          <img class="bg-gray-200 py-5  desktop:px-30 tablet:px-30" :src="customer.img" alt="" />
         </div>
         <template #prevArrow="arrowOption">
           <div class="custom-arrow">
@@ -31,7 +31,7 @@
         class="absolute right-0 top-0 w-4/12 h-full bg-gradient-to-l from-white tablet:w-3/12"
       ></div>
       <div
-        class="flex items-center justify-center opacity-30 pt-10 relative -left-11"
+        class="flex items-center justify-center opacity-30 pt-10 tablet:relative -left-11"
       >
         <button class="focus:outline-none" @click="showPrev">
           <svg
@@ -77,6 +77,7 @@ export default {
         speed: 500,
         slidesToShow: 6,
         slidesToScroll: 1,
+        centerMode:true,
         responsive: [
           {
             breakpoint: 1200,
@@ -92,10 +93,10 @@ export default {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1,
               centerMode: true,
-              centerPadding: "20px",
+              centerPadding: "30px",
             },
           },
           {
@@ -104,8 +105,7 @@ export default {
               slidesToShow: 2,
               slidesToScroll: 1,
               centerMode: true,
-              centerMode:true,
-              centerPadding: "30px",
+              centerPadding: "10px",
             },
           },
         ],
