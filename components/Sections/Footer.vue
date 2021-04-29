@@ -11,7 +11,7 @@
           <p class="pt-10 desktop:w-3/12 tablet:w-7/12 text-12 leading-l-18 opacity-30">
               udix is a market-leading provider of digital marketing services, using proprietary tools and methodologies to generate high-value engagement for our customers.
           </p>
-         <div class="pt-10 desktop:max-w-lg tablet:ml-auto tablet:ml-0 tablet:w-2/5">
+         <div class="pt-10 desktop:max-w-lg tablet:ml-auto ml-0 tablet:w-2/5">
               <Social />
          </div>
       </div>

@@ -87,7 +87,7 @@ export default {
               infinite: true,
               dots: false,
               centerMode: true,
-              centerPadding: "30px",
+              centerPadding: "20px",
             },
           },
           {

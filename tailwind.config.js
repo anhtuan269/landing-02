@@ -58,7 +58,8 @@ module.exports = {
         '690':'690px',
         'tablet':'768px',
         'desktop': '1920px',
-        'd':'1170px'
+        'd':'1170px',
+        '18':'18rem'
       },
       fontSize: {
         '12': '0.75rem',

@@ -1,14 +1,14 @@
 <template>
   <div class="tablet:bg-gray-100 desktop:bg-white">
-    <div class="p-5 text-center bg-black text-white relative desktop:max-w-desktop tablet:max-w-690 tablet:mx-auto">
+    <div class=" px-28 py-10 max-w-sm tablet:p-5 text-center bg-black text-white relative desktop:max-w-desktop tablet:max-w-690 tablet:mx-auto">
     <div class="desktop:px-200 desktop:py-100  desktop:max-w-d text-center text-white tablet:max-w-570 tablet:p-60 tablet:mx-auto">
       <Heading 
       :head="head"
       />
       <CTA />
     </div>
-    <img class="absolute top-5 left-5" src="@/static/image/1.png" alt="">
-    <img class="absolute right-5 bottom-5" src="@/static/image/2.png" alt="">
+    <img class=" opacity-0 tablet:opacity-100 absolute top-5 left-5" src="@/static/image/1.png" alt="">
+    <img class=" opacity-0 tablet:opacity-100 absolute right-5 bottom-5" src="@/static/image/2.png" alt="">
   </div>
   </div>
 </template>
