@@ -12,6 +12,13 @@ module.exports = {
       'desktop': '1920px',
       // => @media (min-width: 1280px) { ... }
     },
+    backgroundPosition:{
+      bottom: 'bottom',
+      'bottom-2':'center bottom 20rem',
+      center:'center',
+      top:'top',
+      right:'right'
+    },
     fill:{
       current:'currentColor'
     },

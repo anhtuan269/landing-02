@@ -1,7 +1,7 @@
 <template>
   <div class="desktop:max-w-desktop mx-auto bg-gray-200 py-10 px-30  tablet:p-10  tablet:max-w-tablet ">    
-      <div class="text-left   tablet:flex  tablet:items-center tablet:justify-between">
-          <img class=" mx-auto w-18 :tablet:mr-5  " src="@/static/image/udix.2.png" alt="">
+      <div class="text-left   tablet:flex  tablet:items-center tablet:justify-between ">
+          <img class=" mx-auto w-18 tablet:mr-5 desktop:mx-0  " src="@/static/image/udix.2.png" alt="">
           <div class="tablet:flex tablet:items-center tablet:justify-between ">
               <Header class="desktop:mr-20 tablet:mr-10 "/>
               <Login  />

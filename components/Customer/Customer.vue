@@ -31,7 +31,7 @@
         class="absolute right-0 top-0 w-4/12 h-full bg-gradient-to-l from-white tablet:w-3/12"
       ></div>
       <div
-        class="flex items-center justify-center opacity-30 pt-10 tablet:relative -left-11"
+        class="flex items-center justify-center opacity-30 pt-10 desktop:relative -left-11"
       >
         <button class="focus:outline-none" @click="showPrev">
           <svg

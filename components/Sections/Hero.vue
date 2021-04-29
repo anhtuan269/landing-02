@@ -1,13 +1,13 @@
 <template>
   <div class="relative desktop:pb-207 pb-0 ">
     <div
-      class=" mx-auto bg-cover bg-center desktop:bg-hero-bg desktop:bg-opacity-10  desktop:z-a desktop:w-full desktop:h-full desktop:absolute desktop:top-0"
+      class=" mx-auto bg-bottom-2  desktop:bg-center bg-hero-bg bg-opacity-10  z-a w-full h-full absolute top-0  bg-cover "
     ></div>
 
     <div
-      class="bg-blue-color z-a absolute desktop:w-3/5 desktop:top-0  desktop:h-full desktop:bg-opacity-90 w-full h-3/5 "
+      class="bg-blue-color z-a absolute desktop:w-3/5 desktop:top-0  desktop:h-full bg-opacity-80 tablet:bg-opacity-100 desktop:bg-opacity-80 w-full h-3/5 "
     ></div>
-    <div class="desktop:bg-white absolute desktop:right-0 desktop:w-2/5 z-a desktop:h-full desktop:bg-opacity-90 bottom-0 h-2/5 w-full bg-gray-100" ></div>
+    <div class="desktop:bg-white absolute desktop:right-0 desktop:w-2/5 z-a desktop:h-full desktop:bg-opacity-80 bottom-0 h-2/5 w-full bg-gray-100" ></div>
     <div class="z-20">
       <div class="content">
         <div

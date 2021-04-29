@@ -1,7 +1,7 @@
 <template>
  <div class="root">
       <div class="heading" v-for="(item, index) in head" :key="index">
-    <h2 class=" text-42 leading-42 text-center tablet:text-center tablet:text-60 tablet:leading-h2  text-menu font-bold desktop:w-full  taplet:leading-h2 tablet:w-11/12 w-10/12 mx-auto" v-show="item.title_show">
+    <h2 class=" text-42 leading-42 text-center tablet:text-60 tablet:leading-h2  text-menu font-bold desktop:w-full  taplet:leading-h2 tablet:w-11/12 w-10/12 mx-auto desktop:text-left" v-show="item.title_show">
       {{ item.title }}
     </h2>
     <h2 class=" text-28 tablet:text-34  font-bold w-10/12 m-auto leading-36 tablet:leading-44 " v-show="item.normal_show">
